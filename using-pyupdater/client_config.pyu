@@ -1,0 +1,14 @@
+[PyUpdater]
+app_name = Test App
+company_name = My Company
+app_version = 1.0.0
+default_repo = https://example.com/updates
+use_code_signing = False
+update_urls = https://example.com/updates
+update_urls_secondary = https://example.com/updates
+update_urls_alpha = https://example.com/updates
+update_urls_beta = https://example.com/updates
+update_urls_rc = https://example.com/updates
+max_download_retries = 3
+download_timeout = 30
+hash_algo = sha256

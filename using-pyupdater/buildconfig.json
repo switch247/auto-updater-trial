@@ -1,0 +1,25 @@
+{
+  "appname": "Test App",
+  "version": "1.0.0",
+  "build_dir": "build",
+  "company_name": "My Company",
+  "download_urls": {
+    "stable": "https://example.com/updates",
+    "beta": "https://example.com/updates",
+    "alpha": "https://example.com/updates",
+    "rc": "https://example.com/updates"
+  },
+  "platforms": [
+    "win32",
+    "win64"
+  ],
+  "requirements": [
+    "PyUpdater",
+    "Tkinter",
+    "Flask"
+  ],
+  "disable_patching": false,
+  "signing": {
+    "enable": false
+  }
+}

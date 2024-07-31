@@ -1,0 +1,1 @@
+In the updates directory, you can place the new version of your application, e.g., updater.exe.
