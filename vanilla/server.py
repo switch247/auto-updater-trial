@@ -16,9 +16,10 @@ def check_latest_version():
         return jsonify({'error': 'Version file not found'}), 404
     
 
-@app.route('/update/<filename>')
-def get_update(filename):
-    updates_directory = './updater'
+@app.route('/update')
+def get_update():
+    filename = "app.exe"
+    updates_directory = './update'
     files = os.listdir(updates_directory)
     file_list = [f for f in files if os.path.isfile(os.path.join(updates_directory, f))]
     print(file_list)
